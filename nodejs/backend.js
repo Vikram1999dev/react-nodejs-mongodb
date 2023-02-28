@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 mongoose.set('strictQuery', false);
 
 //setting up api that connect this application to mongodb atlas
-mongoose.connect('mongodb+srv://vikram:Markiv@cluster0.akbvhq4.mongodb.net', {
+mongoose.connect('xxxxxxx+xxx://xxxxxx:xxxxxxxxxxx.xxxxxxxx.xxxxxxxx.xxxx', {
   dbName: 'nodedatabase',
   useNewUrlParser: true,
   useUnifiedTopology: true,
