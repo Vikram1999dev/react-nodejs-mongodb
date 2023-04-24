@@ -14,7 +14,6 @@ const Register = () => {
     e.preventDefault();
 
     const user = { username, password, rollno, gender };
-
     axios
       .post('http://localhost:4000/register', user)
       .then((response) => {
